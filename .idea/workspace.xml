@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4fd1bb6-0767-474f-9f4e-2f4230d3abfc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/container/PriorityQueue.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/test_priority_queue.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/engine.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/container/PriorityQueue.py" afterPath="$PROJECT_DIR$/src/container/PriorityQueue.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/test_priority_queue.py" afterPath="$PROJECT_DIR$/src/tests/test_priority_queue.py" />
     </list>
     <ignored path="PathFinder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,7 +16,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PathFinder$Unittest_TestPriorityQueue_test_enqueue_item_with_priority.coverage" NAME="Unittest TestPriorityQueue.test_enqueue_item_with_priority Coverage Results" MODIFIED="1489945937232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
+    <SUITE FILE_PATH="coverage/PathFinder$Unittest_TestPriorityQueue_test_is_empty.coverage" NAME="Unittest TestPriorityQueue.test_is_empty Coverage Results" MODIFIED="1489946390387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
+    <SUITE FILE_PATH="coverage/PathFinder$Unittest_TestPriorityQueue_test_enqueue_item_is_added.coverage" NAME="Unittest TestPriorityQueue.test_enqueue_item_is_added Coverage Results" MODIFIED="1489945659905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
+    <SUITE FILE_PATH="coverage/PathFinder$Unittests_in_TestPriorityQueue.coverage" NAME="Unittests in TestPriorityQueue Coverage Results" MODIFIED="1489946506301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
+    <SUITE FILE_PATH="coverage/PathFinder$Unittest_TestPriorityQueue_test_dequeue_by_priority.coverage" NAME="Unittest TestPriorityQueue.test_dequeue_by_priority Coverage Results" MODIFIED="1489946362215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
     <SUITE FILE_PATH="coverage/PathFinder$Unittests_in_test_pq__1_.coverage" NAME="Unittests in test_pq (1) Coverage Results" MODIFIED="1489945389156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
+    <SUITE FILE_PATH="coverage/PathFinder$PriorityQueue__1_.coverage" NAME="PriorityQueue (1) Coverage Results" MODIFIED="1489945675966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/container" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -35,8 +36,8 @@
       <file leaf-file-name="PriorityQueue.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/container/PriorityQueue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="333">
+              <caret line="20" column="53" lean-forward="false" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -45,9 +46,11 @@
       <file leaf-file-name="test_priority_queue.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tests/test_priority_queue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="250">
+              <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,9 +71,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/engine.py" />
-        <option value="$PROJECT_DIR$/src/container/PriorityQueue.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/tests/test_priorityQueue.py" />
+        <option value="$PROJECT_DIR$/src/container/PriorityQueue.py" />
         <option value="$PROJECT_DIR$/src/tests/test_priority_queue.py" />
       </list>
     </option>
@@ -182,8 +185,8 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_priority_queue">
-    <configuration default="false" name="PriorityQueue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests in TestPriorityQueue">
+    <configuration default="false" name="PriorityQueue (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -196,12 +199,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PathFinder" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="I:\Programming\Mihai\PathFinder\src\container\PriorityQueue.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/container/PriorityQueue.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in test_priority_queue" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest TestPriorityQueue.test_enqueue_item_with_priority" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -212,11 +215,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PathFinder" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="I:\Programming\Mihai\PathFinder\src\tests\test_priority_queue.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tests/test_priority_queue.py" />
+      <option name="CLASS_NAME" value="TestPriorityQueue" />
+      <option name="METHOD_NAME" value="test_enqueue_item_with_priority" />
       <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -224,25 +227,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="PQ" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/container" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PathFinder" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="I:\Programming\Mihai\PathFinder\src\container\PriorityQueue.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in test_priority_queue" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest TestPriorityQueue.test_dequeue_by_priority" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -253,11 +238,57 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PathFinder" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="I:\Programming\Mihai\PathFinder\src\tests\test_priority_queue.py" />
-      <option name="CLASS_NAME" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tests/test_priority_queue.py" />
+      <option name="CLASS_NAME" value="TestPriorityQueue" />
+      <option name="METHOD_NAME" value="test_dequeue_by_priority" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest TestPriorityQueue.test_is_empty" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PathFinder" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tests/test_priority_queue.py" />
+      <option name="CLASS_NAME" value="TestPriorityQueue" />
+      <option name="METHOD_NAME" value="test_is_empty" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in TestPriorityQueue" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PathFinder" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tests/test_priority_queue.py" />
+      <option name="CLASS_NAME" value="TestPriorityQueue" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -473,18 +504,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Python.PriorityQueue" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_priority_queue" />
-      <item index="2" class="java.lang.String" itemvalue="Python.PQ" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_priority_queue" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.PriorityQueue (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestPriorityQueue.test_enqueue_item_with_priority" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestPriorityQueue.test_dequeue_by_priority" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestPriorityQueue.test_is_empty" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in TestPriorityQueue" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_priority_queue" />
-        <item index="1" class="java.lang.String" itemvalue="Python.PQ" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_priority_queue" />
-        <item index="3" class="java.lang.String" itemvalue="Python.PriorityQueue" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in TestPriorityQueue" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestPriorityQueue.test_is_empty" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestPriorityQueue.test_dequeue_by_priority" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestPriorityQueue.test_enqueue_item_with_priority" />
+        <item index="4" class="java.lang.String" itemvalue="Python.PriorityQueue (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -502,19 +535,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_pq_(1) - 2017.03.19 at 19h 43m 09s.xml">
-      <configuration name="Unittests in test_pq (1)" configurationId="tests" />
+    <history-entry file="Unittest_TestPriorityQueue_test_dequeue_by_priority - 2017.03.19 at 19h 54m 26s.xml">
+      <configuration name="Unittest TestPriorityQueue.test_dequeue_by_priority" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_priorityQueue - 2017.03.19 at 19h 38m 21s.xml">
-      <configuration name="Unittests in test_priorityQueue" configurationId="tests" />
+    <history-entry file="Unittest_TestPriorityQueue_test_dequeue_by_priority - 2017.03.19 at 19h 57m 54s.xml">
+      <configuration name="Unittest TestPriorityQueue.test_dequeue_by_priority" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_priorityQueue - 2017.03.19 at 19h 39m 06s.xml">
-      <configuration name="Unittests in test_priorityQueue" configurationId="tests" />
+    <history-entry file="Unittest_TestPriorityQueue_test_dequeue_by_priority - 2017.03.19 at 19h 58m 55s.xml">
+      <configuration name="Unittest TestPriorityQueue.test_dequeue_by_priority" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_TestPriorityQueue_test_dequeue_by_priority - 2017.03.19 at 19h 59m 22s.xml">
+      <configuration name="Unittest TestPriorityQueue.test_dequeue_by_priority" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_TestPriorityQueue_test_enqueue_item_is_added - 2017.03.19 at 19h 47m 40s.xml">
+      <configuration name="Unittest TestPriorityQueue.test_enqueue_item_is_added" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_TestPriorityQueue_test_enqueue_item_with_priority - 2017.03.19 at 19h 52m 13s.xml">
+      <configuration name="Unittest TestPriorityQueue.test_enqueue_item_with_priority" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_TestPriorityQueue_test_enqueue_item_with_priority - 2017.03.19 at 19h 52m 17s.xml">
+      <configuration name="Unittest TestPriorityQueue.test_enqueue_item_with_priority" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_TestPriorityQueue_test_is_empty - 2017.03.19 at 19h 59m 50s.xml">
+      <configuration name="Unittest TestPriorityQueue.test_is_empty" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestPriorityQueue - 2017.03.19 at 19h 59m 53s.xml">
+      <configuration name="Unittests in TestPriorityQueue" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestPriorityQueue - 2017.03.19 at 20h 01m 46s.xml">
+      <configuration name="Unittests in TestPriorityQueue" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -522,9 +576,9 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -569,7 +623,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -598,17 +654,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/container/PriorityQueue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="333">
+          <caret line="20" column="53" lean-forward="false" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/test_priority_queue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="250">
+          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
